@@ -1,0 +1,21 @@
+{
+	"global_validators": ["val.cpp"],
+	"subtasks": {
+		"samples": {
+			"index": 0,
+			"score": 0
+		},
+		"s1": {
+			"index": 1,
+			"score": 60,
+			"text": "$n \\le 10^6$",
+			"validators": ["val2.cpp"]
+		},
+		"s2": {
+			"index": 2,
+			"score": 40,
+			"text": "no additional constraint",
+			"validators": [""]
+		}
+	}
+}
